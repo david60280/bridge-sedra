@@ -11,7 +11,7 @@ services:
       - '-stats=false'
       - '-stratum=:5555'
       - '-prom=:2114'
-      - 'sedra=host.docker.internal:22111'
+      - 'slyvex=host.docker.internal:28111'
       - '-mindiff=64'
       - '-vardiff=true'
     ports:
