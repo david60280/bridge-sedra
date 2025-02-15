@@ -10,7 +10,7 @@ services:
     user: "0"
     command:
       - '-stats=false'
-      - '-sedra=host.docker.internal:22111'
+      - '-slyvex=host.docker.internal:28111'
     ports:
       - 5555:5555
       - 2114:2114
